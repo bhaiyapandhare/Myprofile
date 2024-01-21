@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> Registration Form </title>
+  <style>
+    label {
+      color: brown;
+      border-radius: 20px;
+    }
+
+    input[type="text"],input[type="number"]{ border-radius: 20px;}
+    h2:hover {
+      color: crimson;
+    }
+    
+
+    input[type="Submit"],
+    input[type="Reset"] {
+      padding: 20px;
+      margin: 30px;
+      color: aliceblue;
+      background-color: black;
+    }
+  </style>
+</head>
+
+<body>
+  <h2> Student Registration Form</h2>
+  <table>
+    <tbody>
+      <form>
+        <tr>
+          <td><label>Full Name</label></td>
+          <td> <input type="text" placeholder="Capital letter please" required autofocus maxlength="20"></td>
+        </tr><br>
+        <tr>
+          <td><label>Age</label></td>
+          <td><input type="number"></td>
+        </tr>
+
+        <tr>
+          <td> <label> Mobile Number</label> </td>
+          <td> <input type="number" placeholder="Max 10 digits"> </td>
+        </tr>
+
+        <tr>
+          <td> <label> Email ID </label> </td>
+          <td> <input type="email" placeholder="abc@gmail.com"> </td>
+        </tr>
+
+        <tr>
+          <td> <label> Password </label> </td>
+          <td> <input type="password"> </td>
+        </tr>
+        <tr>
+          <td> <label> Date of Birth </label> </td>
+          <td> <input type="date"> </td>
+        </tr>
+
+        <tr>
+          <td> <label> Available in week </label> </td>
+          <td> <input type="week"> </td>
+        </tr>
+
+        <tr>
+          <td> <label> Available in time </label> </td>
+          <td> <input type="time"> </td>
+        </tr>
+
+        <tr>
+          <td> <label> Profile Photo </label> </td>
+          <td> <input type="file"> </td>
+        </tr>
+
+        <tr>
+          <td> <label> Upload Graduation Mark sheets </label> </td>
+          <td> <input type="file" multiple> </td>
+        </tr>
+        <tr>
+          <td><label>Graduation </label> </td>
+          <td>
+            <select>
+              <option> BE </option>
+              <option> MCA </option>
+              <option> BCA </option>
+              <option> BSC </option>
+              <option> B.Tech</option>
+              <option> BCS </option>
+              <option> MSC </option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td> <label> Select Gender </label> </td>
+          <td>
+            <input type="radio" name="gender"> <label> Male</label>
+            <input type="radio" name="gender"> <label> Female </label>
+            <input type="radio" name="gender"> <label>Others</label>
+          </td>
+        <tr>
+          <td> <label> Select Training </label> </td>
+          <td>
+            <input type="checkbox"> <label> Angular </label>
+            <input type="checkbox"> <label> React </label>
+            <input type="checkbox"> <label> Java </label>
+            <input type="checkbox"> <label> Data Science </label>
+            <input type="checkbox"> <label> Manual + Automation Testing </label>
+          </td>
+        </tr>
+
+
+        <tr>
+          <td><label> Qualification</label></td>
+          <td> <input type="text"> </td>
+
+        </tr>
+        <td>
+          <label>Present Address</label>
+        <td><iframe input type="text" width="300px" height="100px"></td></iframe>
+        </td>
+    </tbody>
+    <br>
+    <td><input type="Submit"> </td>
+    <td><input type="Reset"> </td>
+  </table>
+</body>
+
+</html>

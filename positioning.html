@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Position Property</title>
+    <style>
+        #personal{
+            display: inline-block;
+            border: 1px solid brown;
+            width: 150px;
+            height: 150px;
+            background-color: darkgrey;
+            position: static;
+            left:100px;
+            right: 300px;
+            top: 300px;
+            bottom: 300px;
+        }
+        #technical{
+            display: inline-block;
+            border: 1px solid green;
+            width: 150px;
+            height: 150px;
+            background-color: rgb(240, 135, 135);   
+            /* position: relative;   */
+            position: relative;
+            left: 100px; 
+            top:100px;
+            z-index:-2;
+    
+        }
+        #project{
+            display: inline-block;
+            border: 1px solid cadetblue;
+            width: 150px;
+            height: 150px;
+            background-color: rgb(128, 226, 154)
+            
+        }
+           
+     
+    </style>
+  </head>
+  <body>
+    <div id="personal">
+        Personal details block
+    </div>
+
+    <div id="technical">
+        Technical Stack block
+    </div>
+
+    <div id="project">
+        Project Desc. block
+    </div>
+ 
+  </body>
+</html>
